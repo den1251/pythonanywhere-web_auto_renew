@@ -17,7 +17,7 @@ with open('auth.json', 'r') as f:
 
 username = auth['username']
 password = auth['password']
-domain = auth['pythonanywhere_domain']
+domain = f'{username}.pythonanywhere.com'
 
 #We retrieve csrf token and sessionid by requesting /login
 lgnhead = requests.get("https://www.pythonanywhere.com/login/").cookies
