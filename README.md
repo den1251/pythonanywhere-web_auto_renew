@@ -8,7 +8,7 @@ Have you always been bugged that you need to renew your web server in pythonanyw
 
 1. Install the latest release executable for your operating system.
 2. Install the template auth.json file.
-3. Open and edit the auth.json to include your credentials.
+3. Open and edit the auth.json to include your credentials. **Due to formatting differences, the password should contain letters only.**
 4. Have the executable run on startup.
 
 When using the executable for Mac or Linux, run `chmod -x renewer-mac` (or Linux) and `chmod -r auth.json`. Due to strict restrictions with macOS executables, the executable must run with sudo permissions. This is why it is recommended to use Python or docker to run the renewer on mac instead.
